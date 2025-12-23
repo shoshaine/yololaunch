@@ -16,10 +16,10 @@ import {
 
 // --- Mock Data & Constants ---
 const TRENDING_COINS = [
-  { id: 1, name: 'Based Giga Chad', ticker: '$CHAD', mcap: '4.2M', change: '+124%', volume: '1.2M' },
-  { id: 2, name: 'Sleepy Joe', ticker: '$NAP', mcap: '850K', change: '-12%', volume: '400K' },
-  { id: 3, name: 'Pepe AI L2', ticker: '$PAI', mcap: '12.5M', change: '+45%', volume: '5.6M' },
-  { id: 4, name: 'Anti-Vamp Doge', ticker: '$AVD', mcap: '150K', change: '+800%', volume: '900K' },
+  { id: 1, name: 'alonv2', ticker: '$CHAD', mcap: '4.2k', change: '+124%', volume: '14k' },
+  { id: 2, name: 'RECC', ticker: '$NAP', mcap: '8.50K', change: '-12%', volume: '4K' },
+  { id: 3, name: 'Sloth', ticker: '$SLOTH', mcap: '12.5k', change: '+45%', volume: '56k' },
+  { id: 4, name: 'VAMP', ticker: '$AVD', mcap: '15k', change: '+800%', volume: '90K' },
 ];
 
 const FEE_PERCENTAGE = 0.001; // 0.1%
@@ -419,5 +419,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
